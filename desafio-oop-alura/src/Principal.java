@@ -29,5 +29,12 @@ public class Principal {
 
         meuCarro.exibirFichaTecnica();
         System.out.println("Idade do carro: "+ meuCarro.calcularIdade() + " anos");
+
+
+        Aluno meuAluno = new Aluno();
+        meuAluno.nome = "Itachi";
+        meuAluno.idade = 3;
+
+        meuAluno.exibeInformacoes();
 }
 }
